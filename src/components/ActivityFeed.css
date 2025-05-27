@@ -1,0 +1,52 @@
+.activity-feed {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.activity-feed h3 {
+  margin-bottom: 10px;
+  color: #264653;
+}
+
+.activity-feed p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.activity-chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 15px;
+  height: 160px; /* enough height for bars */
+}
+
+.activity-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-bar {
+  width: 25px;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.activity-bar:hover {
+  filter: brightness(85%);
+}
+
+.activity-label {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #264653;
+  font-weight: 600;
+  user-select: none;
+}

@@ -1,0 +1,13 @@
+.upcoming-schedule {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.upcoming-schedule h3 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: #264653;
+}

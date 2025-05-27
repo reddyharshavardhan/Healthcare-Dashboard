@@ -1,0 +1,42 @@
+.health-status-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 280px;
+  max-width: 480px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  flex: 1 1 45%;
+  min-width: 160px;
+}
+
+.card h4 {
+  margin: 0 0 8px 0;
+  color: #264653;
+  font-weight: 700;
+}
+
+.value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.trend {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.trend.up {
+  color: #2a9d8f;
+}
+
+.trend.down {
+  color: #e76f51;
+}

@@ -1,0 +1,8 @@
+.dashboard-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f8fafb;
+}

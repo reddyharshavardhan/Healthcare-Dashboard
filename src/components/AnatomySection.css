@@ -1,0 +1,63 @@
+.anatomy-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 300px;
+  max-width: 100%;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.marker-label-wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.marker {
+  border: 2px solid red;
+}
+
+
+.marker {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 5px rgba(0, 128, 0, 0.6);
+  margin-bottom: 2px;
+}
+
+.label {
+  font-size: 10px;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.health-status-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.health-status-item {
+  font-size: 14px;
+  color: #333;
+}
