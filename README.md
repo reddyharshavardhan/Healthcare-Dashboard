@@ -1,12 +1,27 @@
-# React + Vite
+# 🏥 Healthcare Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A static, responsive Healthcare Dashboard built with **React.js**. This project visually represents a patient's anatomical health using a central body image with status indicators and mock data.
 
-Currently, two official plugins are available:
+👉 [**Live Demo**](https://reddyharshavardhan.github.io/Healthcare-Dashboard/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Dashboard Preview](./preview.png)
+
+## ✨ Features
+
+- Responsive layout with sidebar and main dashboard
+- Anatomical image (PNG) with health indicators (e.g., Heart, Lungs, Teeth, Liver)
+- Mock data displayed using clean UI components
+- Reusable component structure for scalability
+- Styled with custom CSS and Tailwind utility classes
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/healthcare-dashboard.git
+cd healthcare-dashboard
+npm install
+
+
